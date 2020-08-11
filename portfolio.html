@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="style.css">
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  
+
   <title>Judy Naegeli Portfolio</title>
 
 </head>
@@ -38,28 +38,6 @@
     </div>
   </nav>
 
-  <!-- Modal -->
-  <div class="modal fade" id="ModalLong" tabindex="-1" role="dialog" aria-labelledby="ModalLongTitle"
-    aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="ModalLongTitle">Project Details</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <p>text description</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <div class="container padding">
 
     <div class="row">
@@ -76,21 +54,34 @@
 
     <div class="row">
       <div class="col-sm-4">
-        <a href="https://jnaegeli12.github.io/project1-voter-dashboard/" alt="Voter Dashboard Project"
-          target="_blank"><img class="padded" src="Assets/WA-icon.png" alt="Voter Dashboard Project" width="100%"></a>
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btnclass" id="myModal" data-toggle="modal" data-target="#ModalLong">
-          Read More
-        </button>
-
+        <div class="card" style="width: 100%">
+          <img class="card-img-top" src="Assets/WA-icon.png" alt="Voter Dashboard Project">
+          <div class="card-body">
+            <p class="card-text">Washington state is only one of five states that allows its residents to vote by mail. Upon the input of an address, this application provides voters with ballot drop-box locations, candidates on the ballot, and news headlines related to the election.</p>
+            <a href="https://jnaegeli12.github.io/project1-voter-dashboard/" class="card-link">Deployed Link</a>
+            <a href="https://github.com/jnaegeli12/project1-voter-dashboard" class="card-link">Github Repo</a>
+          </div>
+        </div>
       </div>
       <div class="col-sm-4">
-        <a href="https://jnaegeli12.github.io/week-6-weather/" alt="Weather Dashboard" target="_blank"><img
-            class="padded" src="Assets/cloud square copy.png" alt="Weather Dashboard" width="100%"></a>
+        <div class="card" style="width: 100%">
+          <img class="card-img-top" src="Assets/cloud square copy.png" alt="Weather Dashboard">
+          <div class="card-body">
+            <p class="card-text">The Weather Dashboard allows the user to enter any city and see today's weather as well as a 5-day forecast. The button click triggers an API call to openweathermap.org for temperatures, conditions, UV index, humidity, and icon indicators.</p>
+            <a href="https://jnaegeli12.github.io/week-6-weather/" class="card-link">Deployed Link</a>
+            <a href="https://github.com/jnaegeli12/week-6-weather" class="card-link">Github Repo</a>
+          </div>
+        </div>
       </div>
       <div class="col-sm-4">
-        <a href="https://jnaegeli12.github.io/week-5-work-planner/" alt="Day Planner"
-          target="_blank"><img class="padded" src="Assets/planner.png" alt="Day Planner" width="100%"></a>
+        <div class="card" style="width: 100%">
+          <img class="card-img-top" src="Assets/planner copy.png" alt="Day Planner">
+          <div class="card-body">
+            <p class="card-text">This is a simple application to help people currently working from home keep track of daily work tasks and appointments. Hourly entries are saved in local storage, and time elapsed is logged with color-coding using moment.js.</p>
+            <a href="https://jnaegeli12.github.io/week-5-work-planner/" class="card-link">Deployed Link</a>
+            <a href="https://github.com/jnaegeli12/week-5-work-planner" class="card-link">Github Repo</a>
+          </div>
+        </div>
       </div>
     </div>
 
